@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CodeChallenge1</string>
+    <string name="this_is_an_orange_textview">This is an orange TextView!</string>
+    <string name="this_is_a_green_textview">This is a green TextView!</string>
+    <string name="this_is_a_blue_textview">This is a blue TextView!</string>
+    <string name="this_is_a_button">This is a button</string>
+    <string name="this_is_a_green_button">This is a green button</string>
+    <string name="this_is_an_edit_text">This is an Edit Text</string>
+    <string name="this_is_an_new_edit_text">This is an new Edit Text</string>
+    <string name="notify_me">Notify me :)</string>
+    <string name="author_popa_mihnea_cristian">Author: Popa Mihnea Cristian</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+    <string name="auto_backup">Auto backup</string>
+</resources>

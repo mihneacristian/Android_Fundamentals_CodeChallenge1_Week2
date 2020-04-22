@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/light_red_background"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="@string/this_is_an_orange_textview"
+            android:textColor="@color/white_Text"></TextView>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/light_green_background"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/this_is_a_green_textview"
+            android:textColor="@color/black_Text"></TextView>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/light_blue_background"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/this_is_a_blue_textview"
+            android:textColor="@color/white_Text"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/light_blue_background"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="@string/this_is_a_button"></Button>
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/paint"
+            android:contentDescription="TODO"></ImageView>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/green_background"
+            android:gravity="center"
+            android:padding="25dp"
+            android:text="@string/this_is_a_green_button"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow_background"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:hint="@string/this_is_an_edit_text"
+            android:inputType="textCapCharacters"
+            android:paddingLeft="10dp"
+            android:text=""
+            android:textSize="16sp"></EditText>
+
+        <EditText
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:hint="@string/this_is_an_new_edit_text"
+            android:inputType="textCapCharacters"
+            android:paddingLeft="10dp"
+            android:text=""
+            android:textSize="16sp"
+            android:autofillHints=""></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue_background"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:checked="false"
+            android:text="@string/notify_me"
+            android:textColor="@color/black_Text"
+            android:theme="@style/CheckSwitchRadioStyle"></CheckBox>
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="@string/auto_backup"
+            android:textColor="@color/black_Text"
+            android:theme="@style/CheckSwitchRadioStyle"></Switch>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/light_background"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue_background"
+        android:orientation="horizontal">
+
+        <RatingBar
+            android:id="@+id/ratingbar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:theme="@style/RatingBarRedStars"></RatingBar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/light_background"></LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_blue_background"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes"
+            android:textColor="@color/black_Text"
+            android:theme="@style/CheckSwitchRadioStyle"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no"
+            android:textColor="@color/black_Text"
+            android:theme="@style/CheckSwitchRadioStyle"></RadioButton>
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|bottom"
+            android:text="@string/author_popa_mihnea_cristian"
+            android:textColor="@color/white_Text"></TextView>
+    </RadioGroup>
+
+</LinearLayout>
